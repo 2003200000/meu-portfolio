@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap");
+
+.mainProject{
+  font-family:"Rubik", sans-serif;
+}
+.nameProject {
+  text-align: center;
+  font-size: 3rem;
+}
+.myProject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+.cardsProject {
+  padding-right: 0 5rem;
+  
+}
+.cardImg {
+  border: .1rem solid #171718;
+  width: 25rem;
+  height: 15rem;
+  border-radius: .5rem;
+}
+
+.skillsTag{
+  display: flex ;
+  margin-top: .3rem;
+}
+
+.tagHtml, .tagCss, .tagJS{
+  border: .1rem solid ;
+  border-radius: 30rem;
+  padding: .2rem;
+  margin-right: .5rem;
+}
+
+.tagHtml{
+  border-color: #c54a10;
+}
+
+.tagCss{
+  border-color: #5fa3fc;
+}
+
+.tagJS{
+  border-color: #ffee00;
+}
+
+.arrowLeft{
+  margin: 0  7rem;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa-solid{
+  color: #171718;
+}

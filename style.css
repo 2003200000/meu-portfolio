@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap");
+
+/*colors : #1c1c1c , #87CEFA , #F4A460 , #006097 , #483D8B , #C0C0C0 , #836FFF	, #8B4513*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fcfcfc;
+  flex-wrap: wrap;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  width: 100%;
+  min-height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  color: #171718;
+}
+
+.linkHeader {
+  display: flex;
+  gap: 17px;
+  list-style: none;
+}
+
+.navBtn {
+  font-size: 1.3rem;
+  padding: 8px;
+  text-decoration: none;
+  color: #171718;
+  color: pointer;
+  transition: 0.2s;
+}
+
+.navBtn:hover {
+  border-bottom: 2px solid #171718;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.nameHome {
+  font-size: 2.9rem;
+  color: #171718;
+}
+
+.imgHome {
+  width: 29rem;
+}
+
+.socialMidia {
+  text-align: center;
+}
+
+
+.linkBrands{
+  margin: 0 10rem;
+  display: flex;
+  gap:6rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fa-brands{
+  margin: 0 0.1rem;
+  color: #171718;
+
+}
+
+.emailHome{
+  font-size: 1.2rem;
+  color:#171718;
+}
+
+
+/* SKILLS */
+
+
+.skillsFrontEnd{
+  text-align: center;
+  font-size: 1.7rem ;
+  margin-top: 10rem ;
+}
+
+.gridSkills{
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0 0 0 ;
+}
+
+.imgCard{
+  margin: 0 30rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.imgSkills{
+  width: 10rem;
+  height: 8rem;
+  background-color: #d4d4d4;
+  border: .1rem solid transparent;
+  border-radius: .7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logoSkills{
+  width: 5rem;
+}
+
+.margeSkills{
+  width: 5rem;
+}
+
+.bulmaSkills{
+  width: 8rem;
+}
+
+/* SOBRE MIM */
+
+.imgMe{
+  width: 20rem;
+  margin: 0 5rem 0 0;
+}
+.description{
+  padding: 10rem 0 10rem 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerDescription{
+  font-size: 1.3rem;
+}
+.title{
+  text-align:left;
+  font-size: 1.7rem ;
+  margin:0 0 2rem 0;
+}
+
+.paragraphMe{
+  padding: 0 25rem 0 0 ;
+}
+
+/* footer */
+.footer{
+  padding: 0 0 1rem 55rem;
+}
+
+.footerCopy{
+display: flex;
+justify-content: space-between;
+padding-right: 5rem;
+}
+
+.footerAnchor{
+  color: #171718;
+  text-decoration: none;
+  
+}
+
+/*RESPONSIVE*/
+
+
+@media(max-width: 1280px){
+  .imgCard{
+    margin: 0 15rem;
+  }
+  .linkBrands{
+    margin: 0 0 0 5rem;
+  }
+  .emailHome{
+    font-size: 1.1rem;
+  }
+  .imgHome{
+    width: 25rem;
+  }
+  .nameHome{
+    font-size: 1.8rem;
+  }
+  .socialMidia{
+    font-size: 1rem;
+  }
+}
