@@ -15,10 +15,7 @@
   gap: 20px;
   padding: 50px;
 }
-.cardsProject {
-  padding-right: 0 5rem;
-  
-}
+
 .cardImg {
   border: .1rem solid #171718;
   width: 25rem;
@@ -31,11 +28,21 @@
   margin-top: .3rem;
 }
 
-.tagHtml, .tagCss, .tagJS{
+.tagHtml, .tagCss, .tagJS, .repository{
   border: .1rem solid ;
   border-radius: 30rem;
-  padding: .2rem;
+  padding: .5rem;
   margin-right: .5rem;
+}
+
+.skillsTag a {
+  text-decoration: none;
+  list-style: none;
+  color: #171718;
+}
+
+.repository{
+  background-color: #d4d4d4;
 }
 
 .tagHtml{
@@ -60,4 +67,72 @@
 
 .fa-solid{
   color: #171718;
+}
+
+
+@media(max-width: 1440px){
+  .nameProject{
+    font-size: 2.8rem;
+  }
+}
+@media(max-width: 1024px){
+  .nameProject{
+    font-size: 2.7rem;
+  }
+}
+
+@media(max-width: 768px){
+  .nameProject{
+    font-size: 2.7rem;
+  }
+}
+@media(max-width: 425px){
+  .arrowLeft {
+    margin: 0 0 0 2rem ;
+    padding-top: 2rem;
+  }
+
+  .nameProject{
+    font-size: 2.4rem;
+  }
+}
+@media(max-width: 375px){
+  .arrowLeft {
+    margin: 0 0 0 2rem ;
+    padding-top: 2rem;
+  }
+
+  .cardImg{
+    width: 20rem;
+    height: 12rem;
+  }
+
+  .nameProject{
+    font-size: 2.1rem;
+  }
+}
+@media(max-width: 320px){
+  .arrowLeft {
+    margin: 0 0 0 2rem ;
+    padding-top: 2rem;
+  }
+
+  .cardImg{
+    width: 19rem;
+    height: 10rem;
+  }
+
+  .nameProject{
+    font-size: 2.1rem;
+  }
+
+  .repository{
+    padding: .2rem;
+  }
+
+  .tagHtml, .tagCss, .tagJS{
+    font-size: .7rem;
+    padding: .5rem;
+    
+  }
 }
