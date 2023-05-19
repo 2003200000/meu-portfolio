@@ -7,7 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
 
+}
 .container {
   width: 100%;
   min-height: 100vh;
@@ -21,8 +24,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
+  border-bottom: .1rem solid #171718;
+  background-color: #fcfcfc;
   color: #171718;
+  position: fixed;
 }
 
 .linkHeader {
@@ -33,16 +39,17 @@
 
 .navBtn {
   font-size: 1.3rem;
-  padding: 8px;
+  padding: .5rem;
+  width: 1rem;
   text-decoration: none;
   color: #171718;
-  color: pointer;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .navBtn:hover {
-  border-bottom: 2px solid #171718;
+  border-bottom: .2rem solid #171718;
 }
+
 
 .home {
   display: flex;
@@ -58,6 +65,7 @@
 }
 
 .imgHome {
+  margin-top: 4rem;
   width: 29rem;
 }
 
@@ -172,7 +180,7 @@ text-align: center;
 
 /*RESPONSIVE*/
 
-@media(max-width: 1440px){
+@media(max-width: 1826px){
   .linkBrands{
     margin: 0 0 0 7rem;
   }
@@ -185,7 +193,9 @@ text-align: center;
     margin: 0 7rem 0 5rem;
   }
 }
-@media(max-width: 1024px){
+
+
+@media(max-width: 1427px){
   .header{
     font-size: 1rem;
   }
@@ -203,7 +213,7 @@ text-align: center;
   }
 
   .imgHome{
-    width: 16rem;
+    width: 18rem;
   }
 
   .linkBrands{
@@ -235,7 +245,7 @@ text-align: center;
   }
 
   .imgCard{
-    margin: 0 10rem;
+    margin: 0 16rem;
   }
 
   .imgSkills{
@@ -253,7 +263,7 @@ text-align: center;
 
   .imgMe{
     width: 12rem;
-    margin: 0 15rem 2rem 16rem;
+    margin: 0 3rem 3rem 0;
   }
 
   .description{
@@ -266,15 +276,89 @@ text-align: center;
   }
 
   .centerDescription h1 {
-    margin: 0 0 2rem 0;
+    margin: 0 14rem 2rem 0;
   }
 
   .footer{
     padding: 0 1rem .4rem 1rem;
     font-size: .9rem;
   }
+} 
+
+@media(max-width: 1365px){
+.nameHome{
+  font-size: 2.5rem;
 }
-@media(max-width: 768px){
+
+.socialMidia{
+  font-size: 1.3rem;
+}
+
+.imgHome{
+  width: 20rem;
+}
+
+.linkBrands{
+  margin-left: 10rem 0 0 0;
+}
+
+
+.linkedinImg{
+  height: 1.9rem;
+}
+
+.gitImg{
+  height: 2.7rem;
+}
+
+.emailHome{
+  font-size: 1rem;
+}
+
+.skillsFrontEnd{
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
+.gridSkills {
+  padding: 3rem 0 0 0;
+}
+
+.imgCard{
+  margin: 0 10rem;
+}
+
+.imgSkills{
+  width: 8rem;
+  height: 7rem;
+}
+
+.logoSkills{
+  width: 4rem;
+}
+
+.bulmaSkills{
+  width: 6rem;
+}
+
+.imgMe{
+  width: 12rem;
+  margin: 0 3rem 5rem 0;
+}
+
+.centerDescription {
+  font-size: 1rem;
+  margin:0 10rem 0 10rem ;
+}
+
+.centerDescription h1 {
+  margin: 0 13rem 2rem 0;
+}
+
+}
+
+
+@media(max-width: 1309px){
   .header{
     font-size: 1rem;
   }
@@ -288,17 +372,18 @@ text-align: center;
   }
 
   .socialMidia{
+    margin-top: 8rem;
     font-size: 1rem;
   }
 
   .imgHome{
     width: 16rem;
+    margin-top: 8rem;
   }
 
   .linkBrands{
     display: flex;
-    justify-content: center;
-    margin: 2rem 0 0 3rem;
+    margin: 2rem 0 0 5rem;
     gap: 2rem;
   }
 
@@ -316,7 +401,7 @@ text-align: center;
   }
 
   .skillsFrontEnd{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: 3rem;
   }
 
@@ -342,8 +427,8 @@ text-align: center;
   }
 
   .imgMe{
-    width: 12rem;
-    margin: 0 9rem 2rem 9rem;
+    width: 11rem;
+    margin: 0 22rem 3rem 26rem;
   }
 
   .description{
@@ -357,6 +442,7 @@ text-align: center;
   }
 
   .centerDescription h1 {
+    font-size: 1.4rem;
     margin: 0 0 2rem 0;
   }
 
@@ -366,51 +452,169 @@ text-align: center;
   }
 }
 
+@media(max-width: 1122px){
+  .imgMe{
+    margin: 0 17rem 3rem 19rem;
+  }
+}
 
-@media(max-width: 425px) and (min-width: 375px){
-  .header{
-    font-size: .7rem;
-    padding: 0 1rem 0 1rem;
+@media(max-width: 930px){
+  .imgMe{
+    margin: 0 12rem 3rem 12rem;
+  }
+}
+@media(max-width: 900px){
+  .imgMe{
+    margin: 0 12rem 3rem 12rem;
   }
 
-  .navBtn{
-    font-size: .9rem;
-    padding: .4rem;
+  .centerDescription{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 848px){
+
+  .linkedinImg{
+    height: 1.8rem;
   }
 
-  .linkHeader{
-    gap: .2rem;
+  .gitImg{
+    height: 2.5rem;
   }
 
-  
-  .nameHome{
-    font-size: 1.5rem;
+  .emailHome{
+    font-size: 1rem;
   }
-  
+
+  .imgMe{
+    width: 10;
+    margin: 0 14rem 3rem 15rem;
+  }
+
+  .centerDescription{
+    font-size: 1rem;
+    margin: 0 5rem 0 5rem;
+}
+
+.centerDescription h1{
+  font-size: 1.5rem;
+}
+}
+
+
+
+@media(max-width: 789px) {
+
+  .linkedinImg{
+    height: 1.8rem;
+  }
+
+  .gitImg{
+    height: 2.5rem;
+  }
+
+  .emailHome{
+    font-size: 1rem;
+  }
+
+  .skillsFrontEnd{
+    font-size: 1.3rem;
+  }
+
+  .centerDescription h1{
+    font-size: 1.4rem;
+  }
+
+  .imgMe{
+    width: 10rem;
+    margin: 0 14rem 3rem 18rem;
+  }
+  .centerDescription{
+    font-size: 1.1rem;
+    margin:0 2rem 0 2rem ;
+  }
+}
+
+@media(max-width: 705px){
+
+  .imgMe{
+    margin: 0 12rem 3rem 15rem;
+  }
+
+}
+@media(max-width: 667px){
+
+
   .socialMidia{
-    font-size: .8rem;
+    margin-top: 7rem;
+    font-size: 1rem;
   }
-  
+
   .imgHome{
-    width: 18rem;
-  }
-  .linkBrands{
-    justify-content: center;
-    margin: 0 3rem;
-    gap: 2rem;
+    width: 16rem;
   }
 
 
   .linkedinImg{
-    height: 1.7rem;
+    height: 1.8rem;
   }
 
   .gitImg{
-    height: 2.4rem;
+    height: 2.5rem;
   }
 
   .emailHome{
+    font-size: 1rem;
+  }
+
+  .skillsFrontEnd{
+    font-size: 1.4rem;
+    margin-top: 3rem;
+  }
+
+  .centerDescription h1 {
+    font-size: 1.4rem;
+    margin: 0 0 2rem 0;
+  }
+
+  .footer{
+    padding: 0 1rem .4rem 1rem;
     font-size: .9rem;
+  }
+  .imgMe{
+    width: 10;
+    margin: 0 12rem 3rem 15rem;
+  }
+  .centerDescription{
+    font-size: 1rem;
+    margin:0 1rem 0 1rem ;
+  }
+}
+
+
+@media(max-width: 610px) {
+  .header{
+    font-size: .8rem;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .navBtn{
+    font-size: 1rem;
+    padding: .4rem;
+  }
+
+  .nameHome{
+    font-size: 1.6rem;
+  }
+  
+  .socialMidia{
+    margin-top: 4rem;
+    font-size: .9rem;
+  }
+  
+  .imgHome{
+    width: 15rem;
   }
 
   .skillsFrontEnd{
@@ -431,40 +635,235 @@ text-align: center;
     width: 6rem;
   }
 
-
   .imgMe{
-    width: 12rem;
-    margin: 0 4rem 2rem 5rem;
+    width: 10rem;
+    margin: 0 10rem 3rem 13rem;
   }
 
-  .description{
-    margin: 5rem 0 5rem 0;
-  }
-
-  .centerDescription {
+  .centerDescription{
     font-size: 1rem;
-    margin: 0 2rem 0 1rem;
   }
 
   .centerDescription h1 {
+    font-size: 1.2rem;
     margin: 0 0 2rem 0;
   }
 
   .footer{
     padding: 0 1rem .4rem 1rem;
-    font-size: .8rem;
+    font-size: .9rem;
   }
 }
 
-@media(max-width: 320px){
+@media(max-width: 544px){
 
+  .navBtn{
+    font-size: 1rem;
+    padding: .2rem;
+  }
+
+
+  .imgHome{
+    width: 13rem;
+  }
+
+  .nameHome{
+    font-size: 1.4rem;
+  }
+
+  .socialMidia{
+    margin-top: 4rem;
+    font-size: .8rem;
+  }
+
+
+  .linkedinImg{
+    height: 1.6rem;
+  }
+
+  .emailHome{
+    font-size: .8rem;
+  }
+
+  .skillsFrontEnd{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+
+  .imgSkills{
+    width: 7rem;
+    height: 6rem;
+  }
+
+  .logoSkills{
+    width: 3rem;
+  }
+
+  .bulmaSkills{
+    width: 5rem;
+  }
+
+  .imgMe{
+    width: 11rem;
+    margin: 0 9rem 2rem 10rem;
+
+  }
+
+  .centerDescription{
+    font-size: 1rem;
+  }
+
+  .centerDescription h1 {
+    margin: 0 0 2rem 0;
+    font-size: 1.3rem;
+  }
+  .footer{
+    padding: 0 1rem .4rem 1rem;
+    font-size: .9rem;
+  }
+
+} 
+
+@media(max-width: 498px){
   .header{
-    font-size: .6rem;
+    font-size: .8rem;
     padding: 0 1rem 0 1rem;
   }
 
   .navBtn{
+    font-size: 1rem;
+    padding: .2rem;
+  }
+
+  .imgHome{
+    width: 12rem;
+    margin-top: 5rem;
+  }
+
+  .nameHome{
+    font-size: 1.5rem;
+  }
+
+  .socialMidia{
     font-size: .8rem;
+    margin-top: 5rem;
+  }
+
+  .linkedinImg{
+    height: 1.6rem;
+  }
+
+  .skillsFrontEnd{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+
+
+  .imgMe{
+    width: 9rem;
+    margin: 0 10rem 2rem 10rem;
+
+  }
+
+
+}
+
+@media(max-width: 486px){
+  
+
+  .nameHome{
+    font-size: 1.8rem;
+  }
+
+  .socialMidia{
+    font-size: .8rem;
+    margin-top: 8rem;
+  }
+
+  .imgHome{
+    width: 17rem;
+  }
+
+  .linkBrands{
+    justify-content: center; 
+    margin: 0 3rem;
+    gap: 2rem;
+  }
+  
+  .imgMe{
+    width: 10rem;
+    margin: 0 8rem 2rem 9rem;
+  }
+
+  .centerDescription{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 448px){
+  .header{
+    font-size: .8rem;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .navBtn{
+    font-size: .9rem;
+    padding: .1rem;
+  }
+
+  .linkHeader{
+    gap: .5rem;
+  }
+
+  .imgHome{
+    width: 15rem;
+    margin-top: 2rem;
+  }
+
+  .nameHome{
+    font-size: 1.6rem;
+  }
+
+  .socialMidia{
+    font-size: .8rem;
+    margin-top: 7rem;
+  }
+
+  .linkBrands{
+  justify-content: center; 
+  margin: 0 3rem;
+  gap: 2rem;
+}
+
+
+  .linkedinImg{
+    height: 1.5rem;
+  }
+
+  .gitImg{
+    height: 2.3rem;
+  }
+
+
+  .imgMe{
+    width: 10rem;
+    margin: 0 6rem 2rem 8rem;
+
+  }
+
+  .centerDescription{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 400px){
+  .header{
+    font-size: .7rem;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .navBtn{
+    font-size: .9rem;
     padding: .2rem;
   }
 
@@ -474,14 +873,16 @@ text-align: center;
 
   .imgHome{
     width: 14rem;
+    margin-top: 1rem;
   }
 
   .nameHome{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .socialMidia{
-    font-size: .6rem;
+    font-size: .7rem;
+    margin-top: 7rem;
   }
 
   .linkBrands{
@@ -509,21 +910,21 @@ text-align: center;
   }
 
   .imgSkills{
-    width: 8rem;
-    height: 7rem;
+    width: 7rem;
+    height: 6rem;
   }
 
   .logoSkills{
-    width: 4rem;
+    width: 3rem;
   }
 
   .bulmaSkills{
-    width: 6rem;
+    width: 5rem;
   }
 
   .imgMe{
-    width: 10rem;
-    margin: 0 0 2rem 3rem;
+    width: 9rem;
+    margin: 0 4rem 2rem 7rem;
 
   }
   
@@ -533,15 +934,25 @@ text-align: center;
 
   .centerDescription {
     font-size: 1rem;
-    margin: 0 2rem ;
+    margin: 0 1rem ;
   }
 
   .centerDescription h1 {
     margin: 0 0 2rem 0;
+    font-size: 1.2rem;
   }
   .footer{
     padding: 0 1rem .4rem 1rem;
-    font-size: .7rem;
+    font-size: .8rem;
   }
 
-} 
+}
+
+
+
+@media(max-width: 330px){
+  .imgMe{
+    width: 7rem;
+    margin: 0 3rem 2rem 6rem;
+  }
+}
