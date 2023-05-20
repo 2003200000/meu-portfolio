@@ -17,10 +17,14 @@
 }
 
 .cardImg {
-  border: .1rem solid #171718;
+  border-radius: .5rem;
   width: 25rem;
   height: 15rem;
-  border-radius: .5rem;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.cardImg:hover{
+  border: .1rem solid #000;
 }
 
 .skillsTag{
@@ -33,6 +37,7 @@
   border-radius: 30rem;
   padding: .5rem;
   margin-right: .5rem;
+  font-size: .7rem;
 }
 
 .skillsTag a {
@@ -95,6 +100,16 @@
   .nameProject{
     font-size: 2.4rem;
   }
+
+  .cardImg{
+    width: 19rem;
+    height: 10rem;
+  }
+
+  .tagHtml, .tagCss, .tagJS, .repository{
+    padding: .4rem;
+    font-size: .7rem;
+  }
 }
 @media(max-width: 375px){
   .arrowLeft {
@@ -126,13 +141,9 @@
     font-size: 2.1rem;
   }
 
-  .repository{
-    padding: .2rem;
-  }
-
-  .tagHtml, .tagCss, .tagJS{
+  .tagHtml, .tagCss, .tagJS,.repository{
     font-size: .7rem;
-    padding: .5rem;
+    padding: .4rem;
     
   }
 }
