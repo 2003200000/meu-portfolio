@@ -9,9 +9,10 @@ Portfólio.JP é um projeto pessoal que mostra minhas habilidades, fala sobre mi
 
  🔗 link: https://portfolio-jp.bohr.io/
 
-
+[screencapture-portfolio-jp-bohr-io-2023-05-20-12_00_36](https://github.com/Code-Joao-paulo/meu-portfolio/assets/125916540/2aad5425-1eac-4ff5-adb1-b7f7cd61d2bd)
  
-# 🛠️Funcionalidades
+# 🛠️Funcionalidades!
+
 
 - Mostrar meus conhecimentos 
 - Me apresentar
