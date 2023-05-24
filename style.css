@@ -205,30 +205,31 @@ text-align: center;
   }
 
   .nameHome{
-    font-size: 2.1rem;
+    font-size: 2.9rem;
   }
 
   .socialMidia{
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin-top: 6rem;
   }
 
   .imgHome{
-    width: 18rem;
+    width: 23rem;
+    margin-top: 8rem;
   }
 
   .linkBrands{
     display: flex;
-    margin: 0 0 0 6rem;
     gap: 2rem;
   }
 
 
   .linkedinImg{
-    height: 1.8rem;
+    height: 1.9rem;
   }
 
   .gitImg{
-    height: 2.5rem;
+    height: 2.7rem;
   }
 
   .emailHome{
@@ -236,7 +237,7 @@ text-align: center;
   }
 
   .skillsFrontEnd{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: 3rem;
   }
 
@@ -262,8 +263,8 @@ text-align: center;
   }
 
   .imgMe{
-    width: 12rem;
-    margin: 0 3rem 3rem 0;
+    width: 14rem;
+    margin: 3rem 3rem 3rem 0;
   }
 
   .description{
@@ -271,12 +272,13 @@ text-align: center;
   }
 
   .centerDescription {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin:0 10rem 0 10rem ;
   }
 
   .centerDescription h1 {
     margin: 0 14rem 2rem 0;
+    font-size: 1.5rem;
   }
 
   .footer{
@@ -287,15 +289,17 @@ text-align: center;
 
 @media(max-width: 1365px){
 .nameHome{
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .socialMidia{
   font-size: 1.3rem;
+  margin-top: 8rem;
 }
 
 .imgHome{
-  width: 20rem;
+  width: 22rem;
+  margin-top: 8rem;
 }
 
 .linkBrands{
@@ -316,7 +320,7 @@ text-align: center;
 }
 
 .skillsFrontEnd{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-top: 3rem;
 }
 
@@ -343,7 +347,7 @@ text-align: center;
 
 .imgMe{
   width: 12rem;
-  margin: 0 3rem 5rem 0;
+  margin: 2rem 3rem 5rem 0;
 }
 
 .centerDescription {
@@ -353,6 +357,7 @@ text-align: center;
 
 .centerDescription h1 {
   margin: 0 13rem 2rem 0;
+  font-size: 1.4rem;
 }
 
 }
@@ -368,16 +373,16 @@ text-align: center;
   }
 
   .nameHome{
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
 
   .socialMidia{
     margin-top: 8rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .imgHome{
-    width: 16rem;
+    width: 20rem;
     margin-top: 8rem;
   }
 
@@ -389,15 +394,15 @@ text-align: center;
 
 
   .linkedinImg{
-    height: 1.6rem;
+    height: 1.9rem;
   }
 
   .gitImg{
-    height: 2.3rem;
+    height: 2.7rem;
   }
 
   .emailHome{
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
   .skillsFrontEnd{
@@ -452,7 +457,7 @@ text-align: center;
   }
 }
 
-@media(max-width: 1122px){
+@media(max-width: 1130px){
   .imgMe{
     margin: 0 17rem 3rem 19rem;
   }
@@ -463,7 +468,7 @@ text-align: center;
     margin: 0 12rem 3rem 12rem;
   }
 }
-@media(max-width: 900px){
+@media(max-width: 907px){
   .imgMe{
     margin: 0 12rem 3rem 12rem;
   }
@@ -474,6 +479,26 @@ text-align: center;
 }
 
 @media(max-width: 848px){
+
+  .socialMidia{
+    font-size: 1.3rem;
+  }
+
+  .nameHome{
+    font-size: 2.3rem;
+  }
+
+  .imgHome{
+    width: 18rem;
+    margin-top: 8rem;
+  }
+  
+  .linkBrands{
+    display: flex;
+    margin: 2rem 0 0 0;
+    justify-content: center;
+    gap: 2rem;
+  }
 
   .linkedinImg{
     height: 1.8rem;
@@ -505,6 +530,16 @@ text-align: center;
 
 
 @media(max-width: 789px) {
+  .socialMidia{
+    font-size: 1.2rem;
+  }
+
+  .nameHome{
+    font-size: 2.2rem;
+  }
+  .imgHome{
+    width: 18rem;
+  }
 
   .linkedinImg{
     height: 1.8rem;
@@ -513,6 +548,7 @@ text-align: center;
   .gitImg{
     height: 2.5rem;
   }
+
 
   .emailHome{
     font-size: 1rem;
@@ -535,15 +571,65 @@ text-align: center;
     margin:0 2rem 0 2rem ;
   }
 }
+@media(max-width: 724px){
+  .socialMidia{
+    margin-top: 7rem;
+    font-size: 1rem;
+  }
+
+  .nameHome{
+    font-size: 2rem;
+  }
+
+  .imgHome{
+    width: 14rem;
+  }
+
+
+  .linkedinImg{
+    height: 1.8rem;
+  }
+
+  .gitImg{
+    height: 2.5rem;
+  }
+
+  .emailHome{
+    font-size: 1rem;
+  }
+
+  .skillsFrontEnd{
+    font-size: 1.4rem;
+    margin-top: 3rem;
+  }
+  
+  .centerDescription{
+    font-size: 1rem;
+    margin:0 1rem 0 1rem ;
+  }
+  .centerDescription h1 {
+    font-size: 1.4rem;
+    margin: 0 0 2rem 0;
+  }
+  .imgMe{
+    width: 10;
+    margin: 0 15rem 3rem 17rem;
+  }
+
+  .footer{
+    padding: 0 1rem .4rem 1rem;
+    font-size: .9rem;
+  }
+}
 
 @media(max-width: 705px){
 
   .imgMe{
-    margin: 0 12rem 3rem 15rem;
+    margin: 0 14rem 3rem 16rem;
   }
 
 }
-@media(max-width: 667px){
+@media(max-width: 677px){
 
 
   .socialMidia{
@@ -593,7 +679,7 @@ text-align: center;
 }
 
 
-@media(max-width: 610px) {
+@media(max-width: 672px) {
   .header{
     font-size: .8rem;
     padding: 0 1rem 0 1rem;
@@ -605,20 +691,20 @@ text-align: center;
   }
 
   .nameHome{
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
   
   .socialMidia{
     margin-top: 4rem;
-    font-size: .9rem;
+    font-size: 1rem;
   }
   
   .imgHome{
-    width: 15rem;
+    width: 13rem;
   }
 
   .skillsFrontEnd{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-top: 3rem;
   }
 
@@ -637,7 +723,7 @@ text-align: center;
 
   .imgMe{
     width: 10rem;
-    margin: 0 10rem 3rem 13rem;
+    margin: 0 12rem 3rem 15rem;
   }
 
   .centerDescription{
@@ -645,7 +731,7 @@ text-align: center;
   }
 
   .centerDescription h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 0 0 2rem 0;
   }
 
@@ -654,8 +740,14 @@ text-align: center;
     font-size: .9rem;
   }
 }
+@media(max-width: 614px){
+  .imgMe{
+    width: 11rem;
+    margin: 0 9rem 2rem 13rem;
 
-@media(max-width: 544px){
+  }
+}
+@media(max-width: 584px){
 
   .navBtn{
     font-size: 1rem;
@@ -668,11 +760,11 @@ text-align: center;
   }
 
   .nameHome{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .socialMidia{
-    margin-top: 4rem;
+    margin-top: 8rem;
     font-size: .8rem;
   }
 
@@ -682,7 +774,7 @@ text-align: center;
   }
 
   .emailHome{
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   .skillsFrontEnd{
@@ -723,6 +815,110 @@ text-align: center;
   }
 
 } 
+
+@media(max-width: 530px){
+  .imgHome{
+    width: 12rem;
+  }
+
+  .nameHome{
+    font-size: 1.6rem;
+  }
+
+  .socialMidia{
+    margin-top: 8rem;
+    font-size: .8rem;
+  }
+
+
+  .linkedinImg{
+    height: 1.6rem;
+  }
+
+  .emailHome{
+    font-size: .9rem;
+  }
+
+  .skillsFrontEnd{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+
+  .imgSkills{
+    width: 7rem;
+    height: 6rem;
+  }
+
+  .logoSkills{
+    width: 3rem;
+  }
+
+  .bulmaSkills{
+    width: 5rem;
+  }
+
+  .imgMe{
+    width: 11rem;
+    margin: 0 9rem 2rem 10rem;
+
+  }
+
+  .centerDescription{
+    font-size: 1rem;
+  }
+
+  .centerDescription h1 {
+    margin: 0 0 2rem 0;
+    font-size: 1.3rem;
+  }
+  .footer{
+    padding: 0 1rem .4rem 1rem;
+    font-size: .9rem;
+  }
+
+} 
+
+@media(max-width: 509px){
+  .header{
+    font-size: .8rem;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .navBtn{
+    font-size: 1rem;
+    padding: .2rem;
+  }
+
+  .imgHome{
+    width: 11rem;
+    margin-top: 5rem;
+  }
+
+  .nameHome{
+    font-size: 1.5rem;
+  }
+
+  .socialMidia{
+    font-size: .8rem;
+    margin-top: 5rem;
+  }
+
+  .linkedinImg{
+    height: 1.6rem;
+  }
+
+  .skillsFrontEnd{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+
+
+  .imgMe{
+    width: 9rem;
+    margin: 0 10rem 2rem 10rem;
+
+  }
+}
 
 @media(max-width: 498px){
   .header{
@@ -837,11 +1033,11 @@ text-align: center;
 
 
   .linkedinImg{
-    height: 1.5rem;
+    height: 1.7rem;
   }
 
   .gitImg{
-    height: 2.3rem;
+    height: 2.5rem;
   }
 
 
@@ -893,11 +1089,11 @@ text-align: center;
 
 
   .linkedinImg{
-    height: 1.5rem;
+    height: 1.7rem;
   }
 
   .gitImg{
-    height: 2.3rem;
+    height: 2.5rem;
   }
 
   .emailHome{
@@ -951,6 +1147,11 @@ text-align: center;
 
 
 @media(max-width: 330px){
+  
+  .nameHome{
+    font-size: 1.5rem;
+  }
+  
   .imgMe{
     width: 7rem;
     margin: 0 3rem 2rem 6rem;
